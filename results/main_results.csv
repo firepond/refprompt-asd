@@ -1,0 +1,13 @@
+split,method,shot,accuracy,roc_auc,f1
+eval,GPT-5.4-mini,1,0.633,0.596,0.593
+eval,GPT-5.4-mini,2,0.608,0.793,0.712
+eval,GPT-5.4-mini,4,0.858,0.879,0.860
+eval,GPT-5.4-mini,16,0.950,0.971,0.952
+eval,one-class SVM,2,0.575,,0.662
+test,GPT-5.4-mini,4,0.846,0.873,0.850
+test,Gemini 3.1 Flash-Lite,4,0.791,0.873,0.812
+test,one-class SVM,4,0.783,,0.779
+test,GPT-5.4-mini,16,0.865,0.952,0.877
+test,Gemini 3.1 Flash-Lite,16,0.881,0.952,0.888
+test,one-class SVM,16,0.940,,0.938
+
